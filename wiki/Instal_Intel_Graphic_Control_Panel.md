@@ -27,7 +27,7 @@ Let's see how to install it:
 1. If you already got installed the new **Intel Graphic Command Center**, proceed to remove it. Press Window key and search the **Apps & Features** menu. from there, search for "Graphics Command Center" and click **Uninstall**
 ![](assets/Intel_Graphic_Command_Center-Uninstall.png)
 
-2. Install **Install Graphic Control Panel** from the [**Microsoft Store**](https://www.microsoft.com/en-us/p/intel-graphics-control-panel/9ndlclmmtmrc?activetab=pivot%3Areviewstabmicros). If the istallation gets un-reachable, [**here is an alternative offline installation**](drivers/Intel_Graphic_Control_Panel-Install.appx)
+2. Install **Install Graphic Control Panel** from the [**Microsoft Store**](https://www.microsoft.com/en-us/p/intel-graphics-control-panel/9ndlclmmtmrc?activetab=pivot%3Areviewstabmicros). If the istallation gets un-reachable, [**here is an alternative offline installation**](/drivers/Intel_Graphic_Control_Panel-Install.appx?raw=true)
 
 3. The **Install Graphic Control Panel** looks like this:
 ![](assets/Intel_Graphic_Control_Panel-Main_Screen.png)

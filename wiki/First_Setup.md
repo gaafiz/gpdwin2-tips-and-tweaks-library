@@ -44,7 +44,7 @@ To install Windows:
 
 1. Run Windows Updates until there are no more updates and restart. Windows Update is able to fetch (almost) all the correct drivers for you.
 
-2. Touch Screen Drivers: Install the [touchscreen drivers](drivers/GW2-Driver-TouchScreen.zip) separately; they will not be fetched by Windows update
+2. Touch Screen Drivers: Install the [touchscreen drivers](/drivers/GW2-Driver-TouchScreen.zip?raw=true) separately; they will not be fetched by Windows update
 
-3. Intel Video Drivers: Windows is able to install the latest drivers just fine. However, chances are you will get the new **Intel Graphic Command Center** that **may not allow you to set custom resolutions**.   If this is the case, follow [this guide](wiki/Instal_Intel_Graphic_Control_Panel.md) to **install back** the old **Intel Graphic Control Panel**
+3. Intel Video Drivers: Windows is able to install the latest drivers just fine. However, chances are you will get the new **Intel Graphic Command Center** that **may not allow you to set custom resolutions**.   If this is the case, follow [this guide](/wiki/Instal_Intel_Graphic_Control_Panel.md) to **install back** the old **Intel Graphic Control Panel**
 
