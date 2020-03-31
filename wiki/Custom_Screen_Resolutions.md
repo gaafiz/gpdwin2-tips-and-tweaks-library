@@ -27,4 +27,4 @@ How to create new custom resolutions:
 Set this new custom resolutions just before playing with a full-screen game you want to improve performances of.
 
 > **NOTE**:
-> If Custom Resolutions don't apply or don't work properly, download and install ab ealier version of Intel graphic drivers. The one I personally tested is v26.20.100.7158. Download it [from Intel website](https://downloadmirror.intel.com/29058/a08/igfx_win10_100.7158.zip)
+> If Custom Resolutions don't apply or don't work properly, download and install ab earlier version of Intel graphic drivers. The one I personally tested is v26.20.100.7158. Download it [from Intel website](https://downloadmirror.intel.com/29058/a08/igfx_win10_100.7158.zip)
