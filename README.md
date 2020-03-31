@@ -9,5 +9,6 @@ Enjoy it and feel free to contribute!
 
 ## Summary
 
-* [First Setup](wiki/First_Setup.md)
+* [First Setup](/wiki/First_Setup.md)
+* [Custom Screen Resolutions](/wiki/Custom_Screen_Resolutions.md)
 
