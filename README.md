@@ -11,4 +11,4 @@ Enjoy it and feel free to contribute!
 
 * [First Setup](/wiki/First_Setup.md)
 * [Custom Screen Resolutions](/wiki/Custom_Screen_Resolutions.md)
-
+* [Framerate Limit](/wiki/Riva_Tuner-Framerate_Set.png)
