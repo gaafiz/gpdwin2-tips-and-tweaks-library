@@ -10,6 +10,6 @@ Enjoy it and feel free to contribute!
 ## Summary
 
 * [First Setup](/wiki/First_Setup.md)
-* [TDP Profiles and Undervolting](TDP_Profiles_and_Undervolting.md)
+* [TDP Profiles and Undervolting](/wiki/TDP_Profiles_and_Undervolting.md)
 * [Custom Screen Resolutions](/wiki/Custom_Screen_Resolutions.md)
-* [Framerate Limit](/wiki/Riva_Tuner-Framerate_Set.png)
+* [Framerate Limit](/wiki/Framerate_Limit.md)
