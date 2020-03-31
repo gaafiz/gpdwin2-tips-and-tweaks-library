@@ -14,12 +14,12 @@ How to create new custom resolutions:
 
  0. Open`Intel HD Graphics Control Panel` and Navigate to `Display -> Customer Resolutions` and click **Yes**, if a warning message appears
 
- 0. Set **custom Width and Height** with **60hz Refresh Rate** and **0 Underscan Percentage**. [Here](https://pacoup.com/2011/06/12/list-of-true-169-resolutions/) a list of true 16:9 resolutions. **Width and height must be inserted inverted** (e.g. to set 960x544, set 544x960 insted) because the GPD WIN 2 screen is a portrait one.
+ 0. Set **custom Width and Height** with **60hz Refresh Rate** and **0 Underscan Percentage**. [Here](https://pacoup.com/2011/06/12/list-of-true-169-resolutions/) a list of true 16:9 resolutions. **Width and height must be inserted inverted** (e.g. to set 960x544, set 544x960 insted) because the GPD WIN 2 screen is a portrait one. In addition, **the width** set in the control Panel **must be disvisible by 8**.
    Here a list of common custom resolutions:
      * `544x960`: is the most suggested and testedresolution by the community (fun fact: is the same resolution of the PSVita).
-     * `540x960`: alternative of the previous resolution with a 16:9 ratio.
-     * `648x1152` and `576x1024`: 16:9 resolutions very close to 720p
-     * `504x896`: use it only if you really want to squeeze every fps and if supported by your target game. Not suggested.
+     * `648x1152` and `576x1024`: usable 16:9 resolutions
+     * `504x896`: may result blurry.
+     * `432x768`and `360x640`: use them only if you really want to squeeze every fps and if supported by your target game. Not suggested.
 
 	![](assets/Intel_Graphic_Control_Panel-New_Custom_Resolution.png)
 
