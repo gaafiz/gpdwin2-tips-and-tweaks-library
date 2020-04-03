@@ -15,3 +15,8 @@ Enjoy it and feel free to contribute!
 * [Custom Screen Resolutions](/wiki/Custom_Screen_Resolutions.md)
 * [Framerate Limit](/wiki/Framerate_Limit.md)
 * [Boost DirectX 9 Games](/wiki/Boost_DirectX9_Games.md)
+
+
+## TODOS
+
+* [See here](/wiki/TODO.md)
