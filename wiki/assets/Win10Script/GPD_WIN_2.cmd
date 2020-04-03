@@ -1,0 +1,1 @@
+@powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0Win10.ps1" -include "%~dp0Win10.psm1" -include "%~dp0BlackDragonBE.psm1"  -preset "%~dp0GPD_WIN_2.preset"

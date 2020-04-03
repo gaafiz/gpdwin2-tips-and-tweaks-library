@@ -10,6 +10,7 @@ Enjoy it and feel free to contribute!
 ## Summary
 
 * [First Setup](/wiki/First_Setup.md)
+* [Windows Optimization](/wiki/Windows_Optimization.md)
 * [TDP Profiles and Undervolting](/wiki/TDP_Profiles_and_Undervolting.md)
 * [Custom Screen Resolutions](/wiki/Custom_Screen_Resolutions.md)
 * [Framerate Limit](/wiki/Framerate_Limit.md)

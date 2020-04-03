@@ -1,0 +1,154 @@
+##########################################
+# Navigate by section (e.g. Security) and decide which app to install (remove hashtag '#')
+# Sections and apps are organized in the same order used by the official Ninite website
+# Ninite website: https://ninite.com/
+##########################################
+
+
+### WEB Browser ###
+
+chrome
+# operaChromium
+# firefox
+
+
+### Security ###
+
+# essentials
+# malwarebytes
+# avast
+# avg
+# spybot2
+# avira
+## "super" is SUPERAntiSpyware 
+# super
+# adaware
+
+
+### Developer Tools ###
+
+# python
+# filezilla
+notepadplusplus
+# java8
+# jdk8
+# jdkx8
+# winscp
+# putty
+# winmerge
+# eclipse
+# vscode
+
+
+### Messaging ###
+
+# zoom
+# discord
+# skype
+# pidgin
+# thunderbird
+# trillian
+
+
+### Online Storage ###
+
+# dropbox
+# googledrive
+# onedrive
+# sugarsync
+
+
+### Media ###
+
+# itunes
+# vlc
+# aimp
+# foobar
+# winamp
+# musicbee
+# audacity
+# klitecodecs
+# gom
+# spotify
+# cccp
+# mediamonkey
+# handbrake
+# pdfcreator
+
+
+### Runtimes ###
+
+.net4.8
+# silverlight
+# air
+
+
+### Other ###
+
+# evernote
+# googleearth
+steam
+# keepass2
+# everything
+## "nvda" -> Non Visual Desktop Access
+# nvda
+
+
+### Imaging ###
+
+# krita
+# blender
+# paint.net
+# gimp
+# irfanview
+# xnview
+# inkscape
+# faststone
+# greenshot
+sharex
+
+### Compression ###
+
+7zip
+# peazip
+# winrar
+
+
+### Documents ###
+
+foxit
+# libreoffice
+# sumatrapdf
+# cutepdf
+# openoffice
+# pdfcreator
+
+
+### File Sharing ###
+
+qbittorrent
+# emule
+
+
+### Utilities ###
+
+# teamviewer
+# imgburn
+# realvnc
+teracopy
+# cdburnerxp
+# revo
+# launchy
+# windirstat
+# glary
+# infrarecorder
+# classicstart
+
+
+### Missing ###
+
+zoom
+discord
+krita
+blender
+sharex

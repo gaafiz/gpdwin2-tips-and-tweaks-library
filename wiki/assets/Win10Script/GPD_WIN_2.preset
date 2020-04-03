@@ -1,0 +1,499 @@
+##########
+# Win 10 / Server 2016 / Server 2019 Initial Setup Script - GPD WIN 2 Preset
+# Based:
+#   - Win10-Initial-Setup-Script v3.9, 2020-04-02
+#     Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
+#   - BlackDragonBE-GPD_WIN_2-Setup-Script v2.5 2018-11-21
+#     Source: https://github.com/BlackDragonBE/Win10-Initial-Setup-Script
+##########
+
+
+
+### Require administrator privileges - DO NOT REMOVE THIS LINE###
+RequireAdmin
+
+
+
+### PRIVACY TWEAKS ###
+
+# Telemetry
+	# Microsoft Data collection system
+	# Hint: You may want to disable it if you are not in the Windows Insider Program or use Microsoft Intune
+	DisableTelemetry         
+	# EnableTelemetry
+
+# WiFi Sense
+	# Automatically connect to open Wi-Fi hotspots
+	# Hint: Rarely used, you may want to disble
+	DisableWiFiSense                
+	# EnableWiFiSense
+
+# Smart Screen **
+	# blocks known dangerous contents (apps, sites, ...) and warns you when you run unknown applications. 
+	# It is an additional level of security and don't replace an antivirus
+	# It sends data to microsoft about the apps ran on your PC. 
+	# Hint: Disable only if you know what you're doing
+	# DisableSmartScreen            
+	# EnableSmartScreen
+
+# Web Search **
+	# When you search something in the Windows menu, It will give you results from the web
+	# Hint: rarely useful web result, you may want to disable the feature
+	# UPDATE: removing this search is not a stable option at the moment
+	# DisableWebSearch              
+	# EnableWebSearch
+
+# Application Suggestions and Automatic Installation
+	# When you search something in the Windows menu, it will show suggested Store apps to download
+	# Hint: You may want to disable it
+	DisableAppSuggestions           
+	# EnableAppSuggestions
+
+# Activity History
+	# Allows you to resume some kind of activities (Microsoft edge pages open, word document editing, ...) across devices.
+	# It does so by tracking the what you do on your computer and share the info with your devices
+	# Hint: You may want to disable it
+	DisableActivityHistory          
+	# EnableActivityHistory
+
+# Background Apps
+	# Apps downloaded from the Microsoft Store can run in background and still do work, download data and show notifications.
+	# Hint: if you don't need some specific Microsoft Store app to run in background, you probably want to disable the feature
+	DisableBackgroundApps           
+	# EnableBackgroundApps
+# Sensors
+	# If the PC has a gyroscope, sensors will tell Windows to turn the screen accoring to the gyroscope values
+	# Hint: GPD WIN 2 doesn't have a gyroscope, you can safetly disable sensors
+	DisableSensors                
+	# EnableSensors
+	
+# Location
+	# Used by Windows to know your location when needed
+	# Hint: Disable it, if you don't want your location to be tracked	
+	DisableLocation                 
+	# EnableLocation
+
+# Maps Updates
+	# Hint: Diable it, if you don't use Windows Maps
+	DisableMapUpdates               
+	# EnableMapUpdates
+
+# Windows 10 Feedback
+	# It helps you sending feedback to Microsoft
+	# Hint: you may want to disable it
+	DisableFeedback                 
+	# EnableFeedback
+
+# Tailored Experiences
+	# helps Microsoft deliver recommendations about Microsoft Product by collecting data from your activities
+	# Hint: you may want to disable it
+	DisableTailoredExperiences      
+	# EnableTailoredExperiences
+
+# Advertising ID
+	# Assign you an ID Microsoft can use to send tailored ads
+	# Hint: you may want to disable it
+	DisableAdvertisingID            
+	# EnableAdvertisingID
+	
+# Web Language list
+	# Provide your Windows languages to the websites that request the info. 
+	# It is useful for those pages to provide content localized in your language.
+	# Hint: You may want to keep it enabled
+	# DisableWebLangList              
+	# EnableWebLangList
+
+# Cortana
+	# The Windows Assistant.
+	# Hint: You may want to disable it
+	DisableCortana                  
+	# EnableCortana
+
+# Biometric
+	# Hadle Fingerprint Sensors and feature.
+	# Hint: the GPD WIN 2 doesn't have fingerprint sensor, it is safe to disable it
+	DisableBiometrics             
+	# EnableBiometrics
+	
+# Camera and Microphone
+	# Hint: Keep them enabled, If you disable them, some software may stop work
+	# DisableCamera                 
+	# EnableCamera
+	# DisableMicrophone             
+	# EnableMicrophone
+
+# Error Reporting
+	# Send error reports to microsoft when an app or a Windows component doesn't work correctly
+	# Hint: you may want to disable it
+	DisableErrorReporting           
+	# EnableErrorReporting
+
+# P2P Update local 
+	# Allows to share Windows Updates among computers connected on the same network. 
+	# It may save internet bandwidth without any relevant downside.
+	# Hitn: you may want to keep it enabled as per default
+	# SetP2PUpdateLocal             
+	# SetP2PUpdateInternet          
+	# SetP2PUpdateDisable
+
+# Diagnostics Tracking 
+	# is a Service that sends diagnostic and usage information to Microsoft.
+	# Disable it only if you Disable Telemetry or Keep it enabled only if you Keep Telemetry enabled.
+	# Hint: you may want to disable it
+	DisableDiagTrack                
+	# EnableDiagTrack
+
+# WAP Push
+	# “WAP Push Message Routing Service. WAP Push messages are specially formatted SMS messages that display an alert message to the user, and give the user the option of connecting directly to a particular URL via the mobile phone’s WAP browser.”
+	# Hint: rarely used, safe to disable (keep it enabled only if you use Intune)
+	DisableWAPPush                  
+	# EnableWAPPush
+
+# Recent Files and Clear Recent Files option
+	# Disable/Enable Recent files in the Start menu
+	# Disable or enable both options together
+	# EnableRecentFiles
+	# EnableClearRecentFiles
+	DisableRecentFiles            	
+	DisableClearRecentFiles
+
+
+
+### SECURITY TWEAKS ###
+
+# UAC
+	# System born for preventing unothorized changes on your PC but it ends up asking approvals for every little thing
+	# Hint: you may want to set it to Low
+	SetUACLow                     
+	# SetUACHigh
+	
+# Sharing Mapped Drives
+	# Share your desktop’s hard drives over the network to your other Windows PCs.
+	# Hint: Enable if you have other computers on the network that you want to share files with via mapped drives, Disable otherwise. 
+	# EnableSharingMappedDrives     
+	# DisableSharingMappedDrives
+
+# Admin Shares
+	DisableAdminShares              
+	# EnableAdminShares
+
+# Windows Firewall
+	# Hint: Disable only if you us a third party firewall
+	# DisableFirewall               
+	# EnableFirewall
+	
+# Script Host
+	# “Numerous spam campaigns are pushing various crypto-ransomware families (and backdoors) via .zip file attachments. And such .zip files typically contain a JScript (.js/.jse) file that, if clicked, will be run via Windows Script Host.”
+	# Hint: Disable it
+	DisableScriptHost               
+	# EnableScriptHost
+	
+# .NET Strong Crypto
+	# Enable Strong cryptography for all .Net applications
+	# Hint: you may want to enable it
+	EnableDotNetStrongCrypto        
+	# DisableDotNetStrongCrypto
+
+# F8 Boot Menu
+	# Enable/Disable advanced Menu on Windows startup by pressing F8
+	# Hint: you may want to enable it
+	EnableF8BootMenu                
+	# DisableF8BootMenu
+
+# Recovery and reset
+	# Enable/Disable System restore
+	# Hint: Keep it enabled
+	# DisableRecoveryAndReset       # EnableRecoveryAndReset
+
+# Data Execution Prevention (DEP)
+	# OptOut: Turn on DEP for all 32-bit applications.
+	# OptOIn: Turn on DEP only for essential 32-bit Windows executables and manually included applications
+	# Hint: Se it to OptOut
+	SetDEPOptOut                    
+	# SetDEPOptIn
+
+# I don't know or I am not sure about those
+	# EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
+	# HideAccountProtectionWarn       # ShowAccountProtectionWarn
+	# DisableDownloadBlocking       # EnableDownloadBlocking **
+
+
+### NETWORK TWEAKS ###
+
+# Automatic installation of network devices
+	# You may want to keep it enabled
+	# DisableNetDevicesAutoInst     
+	# EnableNetDevicesAutoInst
+
+# Remote assistance & Remote Desktop
+	# Remote Assistance: lets you—or someone who you trust—gain access to your computer remotely.
+	# Remote Desktop: Lets another pc takes control of your pc. although it may be useful, it is a protocol aftern used by hacker to hijack PCs
+	# Hint: You may want to disable both protocols for the GPD WIN 2
+	DisableRemoteAssistance         
+	# EnableRemoteAssistance
+	DisableRemoteDesktop
+	# EnableRemoteDesktop        
+
+
+
+### SERVICE TWEAKS ###
+
+# Automatic Driver Update
+	# Allow/Disallow Windows Update to automatically update drivers
+	# Hint: You may want to disable for the GPD WIN 2 to keep stability.
+	DisableUpdateDriver           
+	# EnableUpdateDriver
+
+# Update Microsoft products
+	# This prevents Windows update from updating windows products
+	# EnableUpdateMSProducts          
+	# DisableUpdateMSProducts
+
+# Automatic Updates
+	# Disable/enable automatic download of new Windows updates. You could still run then manually.
+	# Hint: You may want to disable it
+	DisableUpdateAutoDownload     
+	# EnableUpdateAutoDownload
+
+# Restart after updates
+	# Disable/Enable annoying automatic restarts after applying a new windows update
+	# Hint: You may want to disable it	
+	DisableUpdateRestart            
+	# EnableUpdateRestart
+
+# Mainteinance Wake up
+	# Wake-up your pc nightly for Automatic Maintenance and Windows Updates
+	# Hint: You may want to disable it
+	DisableMaintenanceWakeUp        
+	# EnableMaintenanceWakeUp
+
+# Shared Experiences
+	# This feature allows you to share web links, messages, app data, etc., with other Windows 10 PCs or linked Android phones.
+	# Hint: You may want to disable it
+	DisableSharedExperiences        
+	# EnableSharedExperiences
+
+# Autoplay and Autorun
+	# Execute automatic actions (like open the drive folder or play a movie) when a new device is inserted.
+	# Hint: It may lead to unvolontary run malicious automatic action, you may want to disable them
+	DisableAutoplay                 
+	# EnableAutoplay
+	DisableAutorun                  
+	# EnableAutorun
+
+# Windows Restore points
+	# DisableRestorePoints          
+	# EnableRestorePoints
+
+# Windows Search indexing service **
+	# Automatic index files in your main drive. Constantly consumes resources but is necessary for the Windows Search feature
+	# Hint: Disable only if you don't care about Windows Search or you are using a third party software for searches.
+	# DisableIndexing               
+	# EnableIndexing
+
+# NTFS long paths
+	# Enable Files and folder paths with length over 260 characters:
+	# Hint: you may want to enable it
+	EnableNTFSLongPaths             
+	# DisableNTFSLongPaths
+
+# NTFS Last Access Timestamps
+	# Windows updates every single file with the “last access update time” when last opened by any application. 
+	# Hint: you may want to disable it as it takes up valuable resources
+	DisableNTFSLastAccess         
+	# EnableNTFSLastAccess
+
+# Hibernation **
+	# Hint: enable it if you like the hibernate feature
+	# EnableHibernation             
+	# DisableHibernation
+
+# Fast Startup
+	# Usually cool feature that turn off the device with a mix of hibernation to speed up next Windows boots time.
+	# However, in the GPD WIN 2, this hybrid turn off may cause unvolontary battery consumption.
+	# Hint: you may want to disable it for the GPD WIN 2
+	DisableFastStartup            
+	# EnableFastStartup
+
+# I don't know or I am not sure about those
+	# DisableAutoRestartSignOn      # EnableAutoRestartSignOn
+	# EnableStorageSense            # DisableStorageSense
+
+
+
+### UI TWEAKS ###
+
+# Action Center (Notification Center)
+	# This is the side pop-up on the right-hand side of the screen displaying (useless) info from apps.
+	# Hint: You may want to disable it.	
+	DisableActionCenter             
+	# EnableActionCenter
+
+# Aero Shake
+	# When you shake a window, minimize any other windows
+	# Hint: you may want to disable it
+	DisableAeroShake              
+	# EnableAeroShake
+	
+# Accessibility Keys
+	# When you hit some hot keys like SHIFT or CTRL, it shows an accessibility pop-up
+	# Hint: you may want to disable it.
+	DisableAccessibilityKeys        # EnableAccessibilityKeys
+	
+# Task Manager Details
+	# Show Task manager details
+	# Hint: you may want to enable it
+	ShowTaskManagerDetails          
+	# HideTaskManagerDetails
+
+# File Operations Details
+	# Show details by default when you move, copy files
+	ShowFileOperationsDetails       
+	# HideFileOperationsDetails
+
+
+HideTaskbarSearch               # ShowTaskbarSearchIcon         # ShowTaskbarSearchBox
+HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
+DisableSearchAppInStore         # EnableSearchAppInStore
+DisableNewAppPrompt             # EnableNewAppPrompt
+SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
+DisableShortcutInName           # EnableShortcutInName
+SetVisualFXPerformance          # SetVisualFXAppearance
+EnableDarkTheme               # DisableDarkTheme
+SetSoundSchemeNone            # SetSoundSchemeDefault
+DisableStartupSound           # EnableStartupSound
+DisableF1HelpKey                # EnableF1HelpKey
+
+# Lock Screen
+	# HideNetworkFromLockScreen       # ShowNetworkOnLockScreen **
+	# HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
+	DisableLockScreenBlur           # EnableLockScreenBlur
+	# DisableLockScreen             # EnableLockScreen **
+	# DisableLockScreenRS1          # EnableLockScreenRS1
+
+# To better check 
+	# HideTaskView                    # ShowTaskView
+	# ShowSmallTaskbarIcons           # ShowLargeTaskbarIcons 
+	# SetTaskbarCombineWhenFull       # SetTaskbarCombineNever        # SetTaskbarCombineAlways
+	# HideRecentlyAddedApps         # ShowRecentlyAddedApps
+	# HideMostUsedApps              # ShowMostUsedApps
+	# HideShortcutArrow             # ShowShortcutArrow
+	# EnableTitleBarColor           # DisableTitleBarColor
+	# DisableEnhPointerPrecision    # EnableEnhPointerPrecision
+	# DisableChangingSoundScheme    # EnableChangingSoundScheme
+	# EnableVerboseStatus           # DisableVerboseStatus
+	
+
+
+### Explorer UI Tweaks ###
+
+ShowExplorerTitleFullPath     # HideExplorerTitleFullPath
+ShowKnownExtensions             # HideKnownExtensions
+ShowHiddenFiles                 # HideHiddenFiles
+# ShowSuperHiddenFiles          # HideSuperHiddenFiles
+# ShowEmptyDrives               # HideEmptyDrives
+# EnableFldrSeparateProcess     # DisableFldrSeparateProcess
+# EnableRestoreFldrWindows      # DisableRestoreFldrWindows
+# DisableSharingWizard          # EnableSharingWizard
+HideSyncNotifications           # ShowSyncNotifications
+
+# Personal Preferences
+	#HideRecentShortcuts             # ShowRecentShortcuts **
+	#SetExplorerThisPC               # SetExplorerQuickAccess **
+	#HideQuickAccess                 # ShowQuickAccess
+	# ShowThisPCOnDesktop             # HideThisPCFromDesktop **
+	# ShowUserFolderOnDesktop       # HideUserFolderFromDesktop **
+	# ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
+	# ShowNetworkOnDesktop          # HideNetworkFromDesktop
+	# ShowBuildNumberOnDesktop      # HideBuildNumberFromDesktop
+	# HideDesktopFromThisPC           # ShowDesktopInThisPC **
+	# HideDesktopFromExplorer       # ShowDesktopInExplorer
+	# HideDocumentsFromThisPC         # ShowDocumentsInThisPC **
+	# HideDocumentsFromExplorer     # ShowDocumentsInExplorer
+	# HideDownloadsFromThisPC         # ShowDownloadsInThisPC **
+	# HideDownloadsFromExplorer     # ShowDownloadsInExplorer
+	# HideMusicFromThisPC             # ShowMusicInThisPC **
+	# HideMusicFromExplorer         # ShowMusicInExplorer
+	# HidePicturesFromThisPC          # ShowPicturesInThisPC **
+	# HidePicturesFromExplorer      # ShowPicturesInExplorer
+	# HideVideosFromThisPC            # ShowVideosInThisPC **
+	# HideVideosFromExplorer        # ShowVideosInExplorer
+	# Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC **
+	# Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
+	HideIncludeInLibraryMenu      # ShowIncludeInLibraryMenu
+	HideGiveAccessToMenu          # ShowGiveAccessToMenu
+	HideShareMenu                 # ShowShareMenu
+	# DisableThumbnails             # EnableThumbnails **
+	# DisableThumbnailCache           # EnableThumbnailCache **
+	# DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork **
+
+# To better check 
+	# EnableNavPaneExpand             # DisableNavPaneExpand
+	# ShowNavPaneAllFolders         # HideNavPaneAllFolders
+	# HideSelectCheckboxes          # ShowSelectCheckboxes
+
+
+
+### Application Tweaks ###
+
+# DisableOneDrive                 # EnableOneDrive **
+# UninstallOneDrive               # InstallOneDrive **
+# Strongly suggest to uninstall Msft Bloatware (but first have a read at what gets removed)
+# UninstallMsftBloat              # InstallMsftBloat **
+UninstallThirdPartyBloat        # InstallThirdPartyBloat
+# UninstallWindowsStore         # InstallWindowsStore
+DisableXboxFeatures             # EnableXboxFeatures
+DisableFullscreenOptims       # EnableFullscreenOptims
+DisableAdobeFlash               # EnableAdobeFlash
+DisableEdgePreload              # EnableEdgePreload
+DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
+DisableIEFirstRun               # EnableIEFirstRun
+DisableFirstLogonAnimation      # EnableFirstLogonAnimation
+DisableMediaSharing             # EnableMediaSharing
+# EnableDeveloperMode           # DisableDeveloperMode
+# UninstallMediaPlayer          # InstallMediaPlayer
+# UninstallInternetExplorer     # InstallInternetExplorer
+UninstallWorkFolders          # InstallWorkFolders
+# GPD doesn't have a camera, Hello face is not usable
+UninstallHelloFace            # InstallHelloFace
+UninstallMathRecognizer       # InstallMathRecognizer
+# UninstallPowerShell V2         # InstallPowerShellV2
+# InstallLinuxSubsystem         # UninstallLinuxSubsystem **
+# InstallHyperV                 # UninstallHyperV
+# UninstallSSHClient            # InstallSSHClient
+# InstallSSHServer              # UninstallSSHServer
+InstallNET23                  	# UninstallNET23
+SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
+AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
+# UninstallPDFPrinter           # InstallPDFPrinter
+UninstallXPSPrinter             # InstallXPSPrinter
+RemoveFaxPrinter                # AddFaxPrinter
+# UninstallFaxAndScan           # InstallFaxAndScan
+
+
+
+### Unpinning ###
+UnpinStartMenuTiles
+# UnpinTaskbarIcons
+
+
+### BlackDragonBE TWEAKS - Tailored for GPD WIN/WIN 2 ###
+
+DisableExtraServices
+RemoveUnneededComponents
+DisableGPDWinServices
+
+DisableStartupDelay				#EnableStartupDelay
+DisableConnectedStandby			#EnableConnectedStandby
+
+# Enable this if you want to enable install in 1 click your favorite windows apps
+# DoNiniteInstall **
+
+DeleteTempFiles
+CleanWinSXS
+
+
+
+### Auxiliary Functions ###
+WaitForKey
+Restart
