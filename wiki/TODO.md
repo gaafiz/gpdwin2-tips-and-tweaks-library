@@ -1,25 +1,21 @@
 # TODO list and Notes
 
-
-
-## System Monitoring
-* MSI afterburner
-* Riva Tuner
-* Battery Care
-* HWInfo
-
-
 ## Windows Optimization
 * https://boards.dingoonity.org/gpd-windows-devices/compilation-of-the-most-useful-performance-tweaks-from-all-guides-forums-etc/
+* Shutup10
 * Devices Improvements:
 	- SD Card:
 		* In Device Manager right-click Disk drives->Generic 00000 SD Card then click Properties. Now click on the Policies tab and select the Better performance option.
 		* [GPD Win Keepalive](https://www.sakya.it/wordpress/gpd-win-keepalive-version-1-1-0-released/): Keeps the SD Card from unmounting
 	- SSD: https://www.reddit.com/r/gigabyte/comments/9of8wp/aero_15x_transcend_nvme_drive_write_speeds/
+* Additional configuration tweaks:
+    - Game bar -> Open with controller -> Disable
+* Sound Control Panel -> Speakers -> Advanced -> Decrease Quality (+ disable audio enhancements)
+* Sound Control Panel -> Mich -> Advanced -> Decrease Quality
 
 
 ## Graphic Optimizations
-* Intel HD Card full MHz: https://www.ntlite.com/community/index.php?threads/intel-r-hd-graphics-4600-tweak-always-full-mhz.1084/
+* Modded Intel graphic driver: https://github.com/BenNottelling/iGPU-AutoMod
 * From quality to performance
 * [Change Display Resolution with a Tray Icon](https://www.reddit.com/r/gpdwin/comments/5qtqs8/a_little_list_of_custom_widescreen_resolutions/dd41c33/)
 * [Intel modded drivers Tensor](https://imo32.weebly.com/)
@@ -40,7 +36,9 @@
 	* disable broadcast: Settings->Broadcasting->Broadcasting disabled.
 * [Game configurations Archive](https://www.youtube.com/playlist?list=PLcpsy4OhS9AnvZS_8_UMe0idXmssHMuF2)
 * [Emulator Settings for All Platforms (LaunchBox)](https://forums.launchbox-app.com/topic/28762-emulator-settings-for-all-platforms/)
-* Dolphin: https://www.youtube.com/watch?v=_Q4juq-wM58
+* Dolphin:
+	* https://www.youtube.com/watch?v=_Q4juq-wM58
+	* https://www.youtube.com/watch?v=XIbC4L7tiGs
 
 
 ## Uncategorized
@@ -58,6 +56,13 @@
     * If so, for what reason?
     * How to do it from windows?
 
+## System Monitoring & Benchmarking
+* MSI afterburner
+* Riva Tuner
+* Battery Care
+* HWInfo
+* Heaven
+
 ## Notes
 * Big notes file: https://docs.google.com/document/d/17dfO7ww7mCN0TcX3FpK4udR_c9y-3iNE45NCNMvtf6k/edit#
 
@@ -68,6 +73,8 @@
 
 
 ## Probably not relevant
+- Intel HD Card full MHz: https://www.ntlite.com/community/index.php?threads/intel-r-hd-graphics-4600-tweak-always-full-mhz.1084/
+    - Set gpu frequency easier to 848Mhz. Useful?
 - [GeDoSaTo](https://web.archive.org/web/20170424124847/http://blog.metaclassofnil.com/?page_id=582) downsampling of resolution
     - https://www.reddit.com/r/pcmasterrace/comments/8127op/cant_install_gedosato_anymore/
     - Probably useless for improving performance having already HiAlgoBoost
@@ -75,3 +82,4 @@
     - Does not work with new Intel drivers
 - Intel PHDGD Driver now: https://youtu.be/BZG50Nm5sOM?t=192
     - they don't work on the current intel GPU gen
+
