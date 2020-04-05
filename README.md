@@ -12,9 +12,11 @@ Enjoy it and feel free to contribute!
 * [First Setup](/wiki/First_Setup.md)
 * [Windows Optimization](/wiki/Windows_Optimization.md)
 * [TDP Profiles and Undervolting](/wiki/TDP_Profiles_and_Undervolting.md)
+* [Hardware Optimizations](/wiki/Hardware_Optimizations.md)
 * [Custom Screen Resolutions](/wiki/Custom_Screen_Resolutions.md)
 * [Framerate Limit](/wiki/Framerate_Limit.md)
 * [Boost DirectX 9 Games](/wiki/Boost_DirectX9_Games.md)
+* [Troubleshooting](/wiki/Troubleshootin.md)
 
 
 ## TODOS
