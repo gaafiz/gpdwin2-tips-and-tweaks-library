@@ -3,13 +3,7 @@
 ## Windows Optimization
 * Shutup10
 
-
-## Graphic Optimizations
-* From quality to performance
-
-
 ## Software
-* [Low Spec Experience](https://ragnos1997.com/lowspecsexperience/): Auto-optimize your favorite games for maximum possible performance. [Video Guide](https://www.youtube.com/watch?v=IGfBM6FE9Js)
 * [JetClean](http://www.bluesprig.com/jetclean.html): Pc cleaning
 * [BES](http://mion.faireal.net/BES/): Gives CPU Priorities to the processes of your like
 * [CPUCore](https://store.steampowered.com/app/384300/CPUCores__Maximize_Your_FPS/)
@@ -68,20 +62,3 @@
     - Does not work with new Intel drivers
 - Intel PHDGD Driver now: https://youtu.be/BZG50Nm5sOM?t=192
     - they don't work on the current intel GPU gen
-
-
-## Forcing custom Resolutions for games
-
-Force custom resolution in Black Flag and Need for Speed 2015 (tested, potentially any game)
-
-1. Set a custom resolution in intel graphics settings (such as 544x960 as screen is flipped)
-2. Download the appropriate files here: http://www.mediafire.com/file/glw2av3jhb25ald/
-3. Copy the files to the directory of the game you want to run at custom resolution
-4. Right click the start.bat file and select edit
-5. Change the directory listed in the .bat to the directory of the game you are setting custom resolution for (in both places)
-6. Change the .exe to match the game you are launching (eg change AC4FSP.exe to NFS16.exe)
-7. Change the two resolutions values. The first resolution is your desired resolution. The second resolution is the resolution the game is currently set to.
-8. Change your desktop resolution to the custom resolution you made in step 1.
-9. Launch the start.bat
-
-The game should launch in the original resolution at first and then switch over to your custom resolution. Then you can just create a shortcut to the bat, rename it, set an icon, and good to go. Just remember to switch your desktop to the custom resolution before launching the game.

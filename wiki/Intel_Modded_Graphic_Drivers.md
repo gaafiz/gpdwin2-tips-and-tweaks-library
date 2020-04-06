@@ -3,6 +3,8 @@
 I've applied the drivers changes used by [iGPU AutoMod](https://github.com/BenNottelling/iGPU-AutoMod) to the [latest Intel driver out now (igfx_win10_100.7985)](https://downloadcenter.intel.com/download/29465/Intel-Graphics-Windows-10-DCH-Drivers?product=80939).
 I saw some performance improvements (around 90 more point in the heaven benckmark depending on the TDP tested) but they may be accidental or influenced by other factors and that's why of the `Experimental` label.
 
+> **IMPORTANT:** If you see any improvements with these drivers, plese let me a know
+
 #### How to apply
 
 There are some strings replacements to be applied in 2 `.inf` files of the newest intel driver. Currently, I don't have a up-to-date script to apply those changes but I'll provide you the `.inf` files with the changes applied.

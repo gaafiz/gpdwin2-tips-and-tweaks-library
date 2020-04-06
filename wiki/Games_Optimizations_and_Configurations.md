@@ -1,3 +1,13 @@
+# Games Optimizations and Configurations
+
+
+## Low Spec experience
+
+[Low Spec experience](https://ragnos1997.com/lowspecsexperience) is an app able to load apply different configurations for a targetd game.
+* (old version of) [Low Spec Experience in action](https://youtu.be/IGfBM6FE9Js?t=505)
+* New version of [Low Spec Experience in action with Bragon Ball Z:Kakarot + Instructions](https://www.youtube.com/watch?v=qgmTGMIruTY&list=PLE9Hoc7J8icDuqymKb7ZwMcVuppHY8mhJ&index=20). 36FPS to 60FPS
+* [Catalog of supported Games](https://ragnos1997.com/optimization-catalog/)
+
 
 ## Boost DirectX 9 Games (and apps)
 
