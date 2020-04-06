@@ -2,18 +2,10 @@
 
 ## Windows Optimization
 * Shutup10
-* SSD: https://www.reddit.com/r/gigabyte/comments/9of8wp/aero_15x_transcend_nvme_drive_write_speeds/
-* Additional configuration tweaks:
-    - Game bar -> Open with controller -> Disable
-* Sound Control Panel -> Speakers -> Advanced -> Decrease Quality (+ disable audio enhancements)
-* Sound Control Panel -> Mich -> Advanced -> Decrease Quality
 
 
 ## Graphic Optimizations
 * From quality to performance
-* [Change Display Resolution with a Tray Icon](https://www.reddit.com/r/gpdwin/comments/5qtqs8/a_little_list_of_custom_widescreen_resolutions/dd41c33/)
-* [Intel modded drivers Tensor](https://imo32.weebly.com/)
-* [Best Intel Driver Version](https://www.reddit.com/r/gpdwin/comments/bto93y/gpd_win_2_best_intel_driver/)
 
 
 ## Software

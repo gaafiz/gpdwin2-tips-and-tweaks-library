@@ -12,7 +12,7 @@ There are some strings replacements to be applied in 2 `.inf` files of the newes
 3. Copy the modded `.inf` files (`iigd_dch.inf` and `cui_dch.inf`) in `igfx_win10_100.798 -> Graphics`
 4. Modded drivers will not be trusted by Windows, so **you need to disable the `driver signatures enforcement`** feature. See how [here](https://windowsreport.com/driver-signature-enforcement-windows-10/)
 5. Run the `igxpin.exe` as normal
-6. After the installation, the GPU will be listed as `Intel UHD 630`
+6. After the installation, the GPU will be listed as `Intel UHD 617`
 
 #### What Changes are applied
 
@@ -24,7 +24,7 @@ The same as per [here](https://github.com/BenNottelling/iGPU-AutoMod/blob/master
 	- `Display1_PipeOptimizationEnable` enabled
 	- `AdaptiveVsyncEnable` disabled
 	- `Disable_OverlayDSQualityEnhancement` enabled
-	- device ID string changed from `Intel UHD Graphics 615` to `Intel UHD Graphics 630`
+	- device ID string changed from `Intel UHD Graphics 615` to `Intel UHD Graphics 617`
 - `cui_dch.inf`:
 	- `ShowOptimalBalloon` disabled
 	- `ShowPromotions` disabled

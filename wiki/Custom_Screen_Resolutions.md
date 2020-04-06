@@ -1,4 +1,4 @@
-## Custom Screen Resolutions
+# Custom Screen Resolutions
 
 Setting a **custom lower screen resolution** may improve performances of full-screen games.
 
@@ -28,3 +28,12 @@ Set this new custom resolutions just before playing with a full-screen game you 
 
 > **WARN**:
 > If Custom Resolutions don't apply or don't work properly, download and install ab earlier version of Intel graphic drivers. The one I personally tested is v26.20.100.7158. Download it [from Intel website](https://downloadmirror.intel.com/29058/a08/igfx_win10_100.7158.zip)
+
+
+## Quick Resolution Changer
+
+Use [this utility (Change Resolution)](/software/ChangeRes.zip?raw=true) to quckly change the resolution by clicking on a try icon.
+
+![](assets/Change_Resolution.png)
+
+Credits to **headkaze** reddit user, that posted the tool [here](https://www.reddit.com/r/gpdwin/comments/5qtqs8/a_little_list_of_custom_widescreen_resolutions/dd41c33/)
