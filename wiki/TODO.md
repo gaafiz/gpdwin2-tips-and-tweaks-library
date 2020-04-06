@@ -3,19 +3,8 @@
 ## Windows Optimization
 * Shutup10
 
-## Software
-* [JetClean](http://www.bluesprig.com/jetclean.html): Pc cleaning
-* [BES](http://mion.faireal.net/BES/): Gives CPU Priorities to the processes of your like
-* [CPUCore](https://store.steampowered.com/app/384300/CPUCores__Maximize_Your_FPS/)
 
-
-## Games and Software Configurations/Optimization
-* Steam:
-	* [Starting Steam in Offline as default](https://www.reddit.com/r/gpdwin/comments/6qxfnm/steam_wont_launch_offlineairplane_mode/dl1wpeh/)
-	* Due to limited IO, disable downloads during play
-	* Disabling the steam overlay. Settings -> In-Game Settings -> Uncheck “Enable Steam Community In Game”
-	* disable broadcast: Settings->Broadcasting->Broadcasting disabled.
-* [Game configurations Archive](https://www.youtube.com/playlist?list=PLcpsy4OhS9AnvZS_8_UMe0idXmssHMuF2)
+## Emulator Settings
 * [Emulator Settings for All Platforms (LaunchBox)](https://forums.launchbox-app.com/topic/28762-emulator-settings-for-all-platforms/)
 * Dolphin:
 	* https://www.youtube.com/watch?v=_Q4juq-wM58
@@ -46,6 +35,7 @@
 
 ## Notes
 * Big notes file: https://docs.google.com/document/d/17dfO7ww7mCN0TcX3FpK4udR_c9y-3iNE45NCNMvtf6k/edit#
+* [CPUCore](https://store.steampowered.com/app/384300/CPUCores__Maximize_Your_FPS/)
 
 
 ## Useful links
