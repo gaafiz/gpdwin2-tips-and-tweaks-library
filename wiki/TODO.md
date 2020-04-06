@@ -3,22 +3,18 @@
 ## Windows Optimization
 * Shutup10
 
+## Misc
+* Create ideal Battery profiles. Consider:
+    * intel GPU power profile (between performance and battery)
+    * Winwows power plan
+    * TDP
+* Remote PS4 on GPD: https://www.reddit.com/r/gpdwin/comments/c43cul/updated_guide_2019_for_gpd_win_win_2_playing_ps4s/?utm_medium=android_app&utm_source=share
 
 ## Emulator Settings
 * [Emulator Settings for All Platforms (LaunchBox)](https://forums.launchbox-app.com/topic/28762-emulator-settings-for-all-platforms/)
 * Dolphin:
 	* https://www.youtube.com/watch?v=_Q4juq-wM58
 	* https://www.youtube.com/watch?v=XIbC4L7tiGs
-
-
-## Misc
-* Create ideal Battery profiles. Consider:
-    * intel GPU power profile (between performance and battery)
-    * Winwows power plan
-    * TDP
-* Enable 4GB of RAM for 32-bit applications:  https://ntcore.com/?page_id=371
-* Remote PS4 on GPD: https://www.reddit.com/r/gpdwin/comments/c43cul/updated_guide_2019_for_gpd_win_win_2_playing_ps4s/?utm_medium=android_app&utm_source=share
-
 
 ## Questions:
 * Does sleeping or hibernate create issues with GPD WIN 2?
@@ -35,7 +31,6 @@
 
 ## Notes
 * Big notes file: https://docs.google.com/document/d/17dfO7ww7mCN0TcX3FpK4udR_c9y-3iNE45NCNMvtf6k/edit#
-* [CPUCore](https://store.steampowered.com/app/384300/CPUCores__Maximize_Your_FPS/)
 
 
 ## Useful links
@@ -52,3 +47,5 @@
     - Does not work with new Intel drivers
 - Intel PHDGD Driver now: https://youtu.be/BZG50Nm5sOM?t=192
     - they don't work on the current intel GPU gen
+- [CPUCore](https://store.steampowered.com/app/384300/CPUCores__Maximize_Your_FPS/)
+    - it'snot free

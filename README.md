@@ -17,6 +17,7 @@ Enjoy it and feel free to contribute!
 * [Hardware Optimizations](/wiki/Hardware_Optimizations.md)
 * [Framerate Limit](/wiki/Framerate_Limit.md)
 * [Games Optimizations and Configurations](/wiki/Games_Optimizations_and_Configurations.md)
+* [Miscellaneous Tweaks](Miscellaneous.md)
 * [Troubleshooting](/wiki/Troubleshooting.md)
 
 
