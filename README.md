@@ -13,6 +13,7 @@ Enjoy it and feel free to contribute!
 * [Windows Optimization](/wiki/Windows_Optimization.md)
 * [TDP Profiles and Undervolting](/wiki/TDP_Profiles_and_Undervolting.md)
 * [Hardware Optimizations](/wiki/Hardware_Optimizations.md)
+* [Intel Modded Graphics Drivers - Experimental](/wiki/Intel_Modded_Graphic_Drivers.md)
 * [Custom Screen Resolutions](/wiki/Custom_Screen_Resolutions.md)
 * [Framerate Limit](/wiki/Framerate_Limit.md)
 * [Boost DirectX 9 Games](/wiki/Boost_DirectX9_Games.md)
