@@ -1,9 +1,8 @@
 # TODO list and Notes
 
 ## Windows Optimization
-* https://boards.dingoonity.org/gpd-windows-devices/compilation-of-the-most-useful-performance-tweaks-from-all-guides-forums-etc/
 * Shutup10
-	- SSD: https://www.reddit.com/r/gigabyte/comments/9of8wp/aero_15x_transcend_nvme_drive_write_speeds/
+* SSD: https://www.reddit.com/r/gigabyte/comments/9of8wp/aero_15x_transcend_nvme_drive_write_speeds/
 * Additional configuration tweaks:
     - Game bar -> Open with controller -> Disable
 * Sound Control Panel -> Speakers -> Advanced -> Decrease Quality (+ disable audio enhancements)
@@ -11,7 +10,6 @@
 
 
 ## Graphic Optimizations
-* Modded Intel graphic driver: https://github.com/BenNottelling/iGPU-AutoMod
 * From quality to performance
 * [Change Display Resolution with a Tray Icon](https://www.reddit.com/r/gpdwin/comments/5qtqs8/a_little_list_of_custom_widescreen_resolutions/dd41c33/)
 * [Intel modded drivers Tensor](https://imo32.weebly.com/)

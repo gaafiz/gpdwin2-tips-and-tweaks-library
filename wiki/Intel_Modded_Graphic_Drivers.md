@@ -5,7 +5,7 @@ I saw some performance improvements (around 90 more point in the heaven benckmar
 
 #### How to apply
 
-There are some strings replacements to be applied in 2 `.inf` files of the newst intel driver. Currently, I don't have a up-to-date script to apply those changes but I'll provide you the `.inf` files with the changes applied.
+There are some strings replacements to be applied in 2 `.inf` files of the newest intel driver. Currently, I don't have a up-to-date script to apply those changes but I'll provide you the `.inf` files with the changes applied.
 
 1. Download these [**Intel Graphics Drivers (igfx_win10_100.7985)**](https://downloadmirror.intel.com/29465/a08/igfx_win10_100.7985.zip) as a zip and extract them in a folder.
 2. Download these [modded `.inf` files](/drivers/modded-inf_intel-graphics-igfx_win10_100.7985.zip).
@@ -16,7 +16,7 @@ There are some strings replacements to be applied in 2 `.inf` files of the newst
 
 #### What Changes are applied
 
-The same as pere [here](https://github.com/BenNottelling/iGPU-AutoMod/blob/master/automod.ps1) but applied manually.
+The same as per [here](https://github.com/BenNottelling/iGPU-AutoMod/blob/master/automod.ps1) but applied manually.
 
 - `iigd_dch.inf`:
 	- `MaximumDeviceMemoryConfiguration` from 512 to 1024
