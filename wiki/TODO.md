@@ -2,6 +2,9 @@
 
 ## Windows Optimization
 * Shutup10
+* Windows10Debloater
+* O&O APP booster
+* Service disabler
 
 ## Misc
 * Create ideal Battery profiles. Consider:
@@ -31,7 +34,9 @@
 
 ## Notes
 * Big notes file: https://docs.google.com/document/d/17dfO7ww7mCN0TcX3FpK4udR_c9y-3iNE45NCNMvtf6k/edit#
-
+* shell:AppsFolder
+* shell:StartMenu
+* iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 
 ## Useful links
 * GPD discord channel: https://discordapp.com/channels/243411108940087297/444283526645284876/609501028043456514

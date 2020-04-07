@@ -261,7 +261,7 @@ RequireAdmin
 	DisableUpdateRestart            
 	# EnableUpdateRestart
 
-# Mainteinance Wake up
+# Maintenance Wake up
 	# Wake-up your pc nightly for Automatic Maintenance and Windows Updates
 	# Hint: You may want to disable it
 	DisableMaintenanceWakeUp        
@@ -488,6 +488,7 @@ DisableConnectedStandby			#EnableConnectedStandby
 
 # Enable this if you want to enable install in 1 click your favorite windows apps
 # DoNiniteInstall **
+# DownloadShutup10 **
 
 DeleteTempFiles
 CleanWinSXS

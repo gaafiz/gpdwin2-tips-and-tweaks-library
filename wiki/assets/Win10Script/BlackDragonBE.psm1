@@ -68,31 +68,6 @@ Function DisableExtraServices {
     }
 }
 
-# Download ninite and install the selected apps
-Function DoNiniteInstall {
-    Write-Host "Downloading Ninite ..."
-
-    $niniteapps = @()
-    $ofs = '-'
-
-    Get-Content $PSScriptRoot\NiniteApps.txt -ErrorAction Stop | ForEach-Object {
-        $_ = $_.Trim()
-        if( (-not [string]::IsNullOrEmpty($_)) -and (-not $_.StartsWith('#')))
-        {
-            #Write-Output $_
-            $niniteapps += $_
-        }
-    }
-
-    $niniteurl = "https://ninite.com/" + $niniteapps + "/ninite.exe"
-    $output = "C:\Ninite.exe"
-
-    Invoke-WebRequest $niniteurl -OutFile $output
-    & $output
-
-    Write-Host
-    Read-Host "Press ENTER when all applications have been installed by Ninite"
-}
 
 # Delete Temp Files
 Function DeleteTempFiles {
@@ -156,6 +131,7 @@ Function DisableGPDWinServices {
 
     $services = @(
         #"Spooler"                                   # Print Spooler
+		"TabletInputService" 						# Touch Keyboard & Handwriting Panel Service: fixes RetroArch crashes
 		"TabletInputService" 						# Touch Keyboard & Handwriting Panel Service: fixes RetroArch crashes
     )
 
