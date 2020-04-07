@@ -1,0 +1,17 @@
+corretto11jdk
+
+msiafterburner
+potplayer
+ds4windows
+jdownloader
+
+## Also Handled by Ninite ## 
+
+#notepadplusplus
+#7zip
+#foxitreader
+#qbittorrent
+#teracopy
+#steam
+#chrome
+

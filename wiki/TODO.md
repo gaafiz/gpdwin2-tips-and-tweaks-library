@@ -1,11 +1,5 @@
 # TODO list and Notes
 
-## Windows Optimization
-* Shutup10
-* Windows10Debloater
-* O&O APP booster
-* Service disabler
-
 ## Misc
 * Create ideal Battery profiles. Consider:
     * intel GPU power profile (between performance and battery)
@@ -24,13 +18,6 @@
 * Does dptf (Dynamic Power and Thermal Framework) needs to be disabled for GPD WIN 2? 8100Y>
     * If so, for what reason?
     * How to do it from windows?
-
-## System Monitoring & Benchmarking
-* MSI afterburner
-* Riva Tuner
-* Battery Care
-* HWInfo
-* Heaven
 
 ## Notes
 * Big notes file: https://docs.google.com/document/d/17dfO7ww7mCN0TcX3FpK4udR_c9y-3iNE45NCNMvtf6k/edit#

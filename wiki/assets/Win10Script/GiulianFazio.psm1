@@ -7,7 +7,6 @@ Function DoNiniteInstall {
 		Write-Host "NiniteApps.txt file not found in the script folder. Skipping Ninite installation step"
 	} else {
 		$niniteapps = @()
-		$ofs = '-'
 
 		Get-Content $niniteAppsFile -ErrorAction Stop | ForEach-Object {
 			$_ = $_.Trim()
@@ -103,4 +102,82 @@ Function RunWindows10Debloater {
 	}
 
 	& $Windows10DebloaterLocation
+}
+
+Function DOChocolateyInstall {
+	Write-Host "Installing Chocolatey..."
+	& iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+	"choco upgrade msiafterburner"
+
+	Write-Host "Chocolatey Installed"
+
+}
+
+Function DoChocolateyInstall {
+    Write-Host "Installing apps (listed in ChocolateyApps.txt) with Chocolatey ..."
+
+	$chocolateyAppsFile = "$PSScriptRoot\ChocolateyApps.txt"
+
+	If (-not (Test-Path $chocolateyAppsFile)) {
+		Write-Host "ChocolateyApps.txt file not found in the script folder. Skipping chocolatey installation step"
+	} else {
+		$apps = @()
+
+		Get-Content $chocolateyAppsFile -ErrorAction Stop | ForEach-Object {
+			$_ = $_.Trim()
+			if( (-not [string]::IsNullOrEmpty($_)) -and (-not $_.StartsWith('#')))
+			{
+				$apps += $_
+			}
+		}
+
+		if ([string]::IsNullOrEmpty($apps)) {
+			Write-Host "No apps selected for installation in ChocolateyApps.txt file. Skipping chocolatey installation step"
+		} else {
+			# Install Chocolatey
+			& iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+			# Reload Paths in powershell to be able to use chocolatey immediately
+			$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+
+			& "choco" upgrade "msiafterburner" -y
+
+			$apps | ForEach-Object {
+				& "choco" upgrade $_ -y
+			}
+		}
+	}
+}
+
+Function Installc {
+    Write-Host "Installing GPDWin2XTUManager in C:\PortablePrograms..."
+
+	$installUrl = "https://github.com/BlackDragonBE/GPDWin2XTUManager/releases/download/1.09/GPDWin2XTUManager.zip"
+	$installFolder = "C:\PortablePrograms\GPDWin2XTUManager"
+
+	$installLocationZip = "$installFolder\GPDWin2XTUManager.zip"
+	$installLocationExe = "$installFolder\GPDWin2XTUManager.exe"
+
+	$ShortcutLocation = "$Home\Desktop\GPDWin2XTUManager.lnk"  # Shortcut on desktop
+
+	if ((Test-Path $installLocationExe)) {
+		Write-Host "  GPDWin2XTUManager already installed. Skipping the step"
+	} else {
+		# Download
+		if (-not (Test-Path $installFolder)) {
+			New-Item -Path $installFolder -ItemType Directory -Force | Out-Null
+		}
+		# Download and install
+		Invoke-WebRequest $installUrl -OutFile $installLocationZip
+		Expand-Archive -LiteralPath $installLocationZip -DestinationPath $installFolder
+		Remove-Item -Path $installLocationZip -ErrorAction SilentlyContinue
+
+		# Create Shortcut
+		$WScriptShell = New-Object -ComObject WScript.Shell
+		$Shortcut = $WScriptShell.CreateShortcut($ShortcutLocation)
+		$Shortcut.TargetPath = $installLocationExe
+		$Shortcut.WorkingDirectory = $installFolder
+		$Shortcut.Save()
+	}
 }
