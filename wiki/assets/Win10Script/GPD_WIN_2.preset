@@ -488,11 +488,16 @@ DisableConnectedStandby			#EnableConnectedStandby
 
 # Enable this if you want to enable install in 1 click your favorite windows apps
 # DoNiniteInstall **
-# DownloadShutup10 **
+
+# Install Shutup10, make optiomizations, then remove it
+InstallShutup10
+ApplyShutup10Profile
+UninstallShutup10
 
 DeleteTempFiles
 CleanWinSXS
 
+RunWindows10Debloater
 
 
 ### Auxiliary Functions ###
