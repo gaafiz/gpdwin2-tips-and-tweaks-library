@@ -1,9 +1,12 @@
 corretto11jdk
+msvisualcplusplus2013-redist
 
 msiafterburner
 potplayer
 ds4windows
 jdownloader
+keypirinha
+#wox
 
 ## Also Handled by Ninite ## 
 

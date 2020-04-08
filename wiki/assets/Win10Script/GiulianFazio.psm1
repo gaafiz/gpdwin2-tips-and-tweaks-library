@@ -7,6 +7,7 @@ Function DoNiniteInstall {
 		Write-Host "NiniteApps.txt file not found in the script folder. Skipping Ninite installation step"
 	} else {
 		$niniteapps = @()
+		$ofs = '-'
 
 		Get-Content $niniteAppsFile -ErrorAction Stop | ForEach-Object {
 			$_ = $_.Trim()
@@ -141,16 +142,16 @@ Function DoChocolateyInstall {
 			# Reload Paths in powershell to be able to use chocolatey immediately
 			$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 
-			& "choco" upgrade "msiafterburner" -y
-
 			$apps | ForEach-Object {
-				& "choco" upgrade $_ -y
-			}
+                $installCmd = "choco upgrade $_ -y"
+                # Write-Host $installCmd
+                Invoke-Expression $installCmd
+            }
 		}
 	}
 }
 
-Function Installc {
+Function InstallGPDWin2XTUManager {
     Write-Host "Installing GPDWin2XTUManager in C:\PortablePrograms..."
 
 	$installUrl = "https://github.com/BlackDragonBE/GPDWin2XTUManager/releases/download/1.09/GPDWin2XTUManager.zip"

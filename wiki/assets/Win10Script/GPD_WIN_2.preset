@@ -489,7 +489,7 @@ DisableConnectedStandby			#EnableConnectedStandby
 
 ### Giulian Fazio TWEAKS ###
 
-# RunWindows10Debloater **
+# RunWindows10Debloater #**
 
 # Enable these if you want to enable install in 1 click your favorite windows apps
 # DoNiniteInstall               # Set the apps to install in the NiniteApps.txt file **

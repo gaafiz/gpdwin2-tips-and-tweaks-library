@@ -132,14 +132,13 @@ Function DisableGPDWinServices {
     $services = @(
         #"Spooler"                                   # Print Spooler
 		"TabletInputService" 						# Touch Keyboard & Handwriting Panel Service: fixes RetroArch crashes
-		"TabletInputService" 						# Touch Keyboard & Handwriting Panel Service: fixes RetroArch crashes
     )
 
+	# TabletInputService cannot be stopped, only diabled
     foreach ($service in $services) {
         if (Get-Service $service -ErrorAction SilentlyContinue)
         {
-            Write-Host "Stopping and disabling $service"
-            Stop-Service -Name $service
+            Write-Host "Disabling $service"
             Get-Service -Name $service | Set-Service -StartupType Disabled
         } else {
             Write-Host "Skipping $service (does not exist)"

@@ -1,10 +1,7 @@
 # TODO list and Notes
 
 ## Misc
-* Create ideal Battery profiles. Consider:
-    * intel GPU power profile (between performance and battery)
-    * Winwows power plan
-    * TDP
+* Windows powe plans
 * Remote PS4 on GPD: https://www.reddit.com/r/gpdwin/comments/c43cul/updated_guide_2019_for_gpd_win_win_2_playing_ps4s/?utm_medium=android_app&utm_source=share
 
 ## Emulator Settings
@@ -23,7 +20,6 @@
 * Big notes file: https://docs.google.com/document/d/17dfO7ww7mCN0TcX3FpK4udR_c9y-3iNE45NCNMvtf6k/edit#
 * shell:AppsFolder
 * shell:StartMenu
-* iex ((New-Object System.Net.WebClient).DownloadString('https://git.io/debloat'))
 
 ## Useful links
 * GPD discord channel: https://discordapp.com/channels/243411108940087297/444283526645284876/609501028043456514
